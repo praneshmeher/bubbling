@@ -1,1 +1,1 @@
-# events
+# Published at https://praneshmeher.github.io/events/
