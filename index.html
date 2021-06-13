@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Events</title>
+    </head>
+    <body>
+        <div class="one">
+            <div class="two">
+                <div class="three">
+                </div>
+            </div>
+        </div>
+        <style>
+            div{
+                box-sizing: border-box;
+                width: 100%;
+                padding: 100px;
+            }
+            .one{
+                background: thistle;
+            }
+            .two{
+                background: tomato;
+            }
+            .three{
+                background: turquoise;
+            }
+        </style>
+        <script>
+            const divs = document.querySelectorAll('div')
+            divs.forEach(div=>div.addEventListener('click', log, 
+                {
+                    capture:false, 
+                    // once:true
+                }
+            ))
+            function log(e){
+                console.log(this.classList.value)
+                // e.stopPropagation()
+            }
+        </script>
+    </body>
+</html>
