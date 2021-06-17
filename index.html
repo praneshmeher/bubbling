@@ -11,19 +11,15 @@
                 </div>
             </div>
         </div>
-        
+
         <script>
             const divs = document.querySelectorAll('div')
-            divs.forEach(div=>div.addEventListener('click', log, 
-                {
-                    capture:false, 
-                    // once:true
-                }
-            ))
+            divs.forEach(div => div.addEventListener('click', log, { capture:false }) )
             function log(e){
                 console.log(this.classList.value)
                 // e.stopPropagation()
             }
         </script>
+
     </body>
 </html>
