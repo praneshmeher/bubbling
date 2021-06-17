@@ -1,0 +1,14 @@
+div{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 100px;
+}
+.one{
+    background: thistle;
+}
+.two{
+    background: tomato;
+}
+.three{
+    background: turquoise;
+}
