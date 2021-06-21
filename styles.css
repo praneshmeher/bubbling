@@ -3,12 +3,12 @@ div{
     width: 100%;
     padding: 100px;
 }
-.one{
-    background: thistle;
+.red{
+    background: red;
 }
-.two{
-    background: tomato;
+.blue{
+    background: blue;
 }
-.three{
-    background: turquoise;
+.green{
+    background: green;
 }
