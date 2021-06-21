@@ -1,1 +1,1 @@
-# Published at https://praneshmeher.github.io/events/
+# Published at https://praneshmeher.github.io/bubbling/
